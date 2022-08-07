@@ -1,3 +1,3 @@
 # calculatrice
 
-Pour utiliser la calculatrice veuillez <a href="https://clementcarpot.github.io/calculatrice/">cliquer ici</a>
+Pour utiliser la calculatrice veuillez <a href="https://clementcarpot.github.io/Calculatrice/">cliquer ici</a>
