@@ -10,28 +10,30 @@
 </head>
 <body>
     <div class="calculatrice">
-        <div class="ecran"></div>
+        <p class="title">CALCULATRICE</p>
+        <div class="ecran"><input type="text" id="affichage"></div>
             <div class="touches">
-                <button class="clear">C</button>
-                <button class="parenthese_Gauche">(</button>
-                <button class="parenthese_Droite">)</button>
-                <button class="division">/</button>
-                <button class="7">7</button>
-                <button class="8">8</button>
-                <button class="9">9</button>
-                <button class="multiplication">*</button>
-                <button class="4">4</button>
-                <button class="5">5</button>
-                <button class="6">6</button>
-                <button class="soustraction">-</button>
-                <button class="1">1</button>
-                <button class="2">2</button>
-                <button class="3">3</button>
-                <button class="addition">+</button>
-                <button class="0">0</button>
-                <button class="point">.</button>
-                <button class="egal">=</button>
+                <button onclick="effacer()" class="clear">C</button>
+                <button onclick="afficher('(')" class="parenthese_Gauche">(</button>
+                <button onclick="afficher(')')" class="parenthese_Droite">)</button>
+                <button onclick="afficher('/')" class="division">/</button>
+                <button onclick="afficher('7')" class="7">7</button>
+                <button onclick="afficher('8')" class="8">8</button>
+                <button onclick="afficher('9')" class="9">9</button>
+                <button onclick="afficher('*')" class="multiplication">*</button>
+                <button onclick="afficher('4')" class="4">4</button>
+                <button onclick="afficher('5')" class="5">5</button>
+                <button onclick="afficher('6')" class="6">6</button>
+                <button onclick="afficher('-')" class="soustraction">-</button>
+                <button onclick="afficher('1')" class="1">1</button>
+                <button onclick="afficher('2')" class="2">2</button>
+                <button onclick="afficher('3')" class="3">3</button>
+                <button onclick="afficher('+')" class="addition">+</button>
+                <button onclick="afficher('0')" class="0">0</button>
+                <button onclick="afficher('.')" class="point">.</button>
+                <button onclick="calculer()" class="egal">=</button>
             </div>
+            <p class="signature">By CARPOT Clément</p>
     </div>
     
 </body>
