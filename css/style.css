@@ -1,0 +1,47 @@
+body {
+    background-color:  grey;
+}
+
+.calculatrice {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 380px;
+    background-color: #222222;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 5px black;
+}
+
+.ecran {
+    width: 100%;
+    background-color: rgb(198, 237, 255);
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.touches {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(5, 50px);
+    grid-gap: 7px;
+}
+
+.touches button {
+    background-color: #f7f7f7;
+    box-shadow: 0 3px #a8a8a8;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.touches button:active {
+    box-shadow: 0 1px #a8a8a8;
+    transform: translateY(3px);
+}
+
+.touches .egal {
+    background: greenyellow;
+    width: 106px;
+}
